@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0 auto;
+  }
+
+  body {
+    line-height: 1.5;
+    color: white;
+    background-color: black;
+  }
+
+  header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+
+#earth, #moon {
+    max-width: 50%;
+    margin-top: 5em;
+    height: auto;
+    /* Optional */
+    display: block;
+}
+
+#moon {
+    max-width: 35%;
+    height: auto;
+}
+
